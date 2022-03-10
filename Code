@@ -1,0 +1,13 @@
+import time
+from time import sleep
+
+loading = 0.0
+
+for i in range(0,40):
+  sleep(0.09)
+  loading += 1.5
+  loading += 1
+  print("loading... " + f"{loading}" + "%")
+
+else:
+  print("\ngame loaded")
